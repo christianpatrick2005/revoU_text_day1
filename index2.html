@@ -3,6 +3,7 @@
     <title>CALCULATOR</title>
     <h1 style="color:blue">CALCULATOR</h1>
     <style>
+    body {background-color: gray;}
     button {
         width: 100%}
 
@@ -53,6 +54,7 @@
             <button>.</button>
             <button>=</button>
     </div>
+    <br>
     <table>
         <tr>
             <th colspan="4"><input type="text" name="display"></th>
@@ -87,4 +89,7 @@
             <td><button class="green">=</button></td>
         </tr>
     </table>
+    <br>
+    <img src="data:image/png;base64,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">
 </body>
+
